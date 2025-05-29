@@ -1,0 +1,22 @@
+{
+  "name": "prompt-injection-simulator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simulator to test prompt injection and jailbreak attacks against AI models",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "cli": "node index.js --cli"
+  },
+  "author": "Misal-Ambasta",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.1",
+    "dotenv": "^16.3.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
